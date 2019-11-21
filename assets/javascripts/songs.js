@@ -1,25 +1,25 @@
 var songsList = [{
         "song_id": 1,
         "song_name": "NF - Paralyzed",
-        "song_url": "assets/songs/NF - Paralyzed.mp3",
+        "song_url": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
         "song_thumb": "https://upload.wikimedia.org/wikipedia/en/4/42/Mansion_by_NF.png"
     },
     {
         "song_id": 2,
         "song_name": "Faded",
-        "song_url": "assets/songs/Faded.mp3",
+        "song_url": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-8.mp3",
         "song_thumb": "https://i1.sndcdn.com/artworks-000161401845-ko937h-t500x500.jpg"
     },
     {
         "song_id": 3,
         "song_name": "Fifa World Cup",
-        "song_url": "assets/songs/fifa world cup.mp3",
+        "song_url": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3",
         "song_thumb": "https://i.scdn.co/image/a14c737576ea9431c34291bda58caa152c83ab60"
     },
     {
         "song_id": 4,
         "song_name": "Linkin Park - Faint",
-        "song_url": "assets/songs/linkin_park-faint.mp3",
+        "song_url": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3",
         "song_thumb": "http://linkinpedia.com/images/thumb/0/0a/Poster-Faint.jpg/399px-Poster-Faint.jpg"
     },
     {
