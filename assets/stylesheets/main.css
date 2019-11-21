@@ -1,0 +1,185 @@
+/* Global Settings */
+
+body {
+    margin: 0px;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* Helper Classes */
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.clear:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.row {
+    display: flex;
+}
+
+
+/* Generic Sections */
+
+#header {}
+
+#main-navigation {}
+
+#footer {}
+
+
+/* Section_1 */
+
+#audio {
+    width: 100%;
+}
+
+#audioPlayer button {
+    font-size: 20px;
+    vertical-align: top;
+}
+
+#audioPlayer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    left: 0px;
+    color: #fff;
+    z-index: 10;
+    background-color: darkslategrey;
+    padding: 10px 0px;
+    margin-top: 50px;
+}
+
+#audioPlayer span {
+    vertical-align: middle;
+}
+
+input[type="range"] {
+    width: 75%;
+    margin-top: 10px;
+    vertical-align: middle;
+}
+
+#songsList {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#songsList li {
+    width: 23%;
+    margin-bottom: 20px;
+    text-align: center;
+    position: relative;
+}
+
+#songsList li img {
+    height: 200px;
+}
+
+#songsList li .playBtn {
+    background-image: url("https://www.stickpng.com/assets/thumbs/580b57fcd9996e24bc43c4f5.png");
+    background-size: 100% 100%;
+    height: 50px;
+    width: 50px;
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    left: 35%;
+    top: 30%;
+    display: none;
+}
+
+#songsList li:hover .playBtn {
+    display: block;
+
+}
+
+#playList li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+#playList img {
+    width: 20% !important;
+    height: 80px;
+}
+
+#playList span {
+    display: inline-block;
+    width: 80%;
+    margin-left: 10px;
+}
+
+#playList li .playBtn {
+    background-image: url("https://www.stickpng.com/assets/thumbs/580b57fcd9996e24bc43c4f5.png");
+    background-size: 100% 100%;
+    height: 50px;
+    width: 50px;
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    left: 4%;
+    top: 15%;
+    /* display: none; */
+}
+
+
+input[type="range"] {
+    -webkit-appearance: none;
+    cursor: pointer;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+    background: red;
+    box-shadow: 10px 10px 10px black;
+    height: 3px;
+    position: relative;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    border: 1px solid #000000;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background: #ffffff;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    margin-top: -11px;
+}
